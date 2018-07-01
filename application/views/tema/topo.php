@@ -46,6 +46,14 @@
   </form>
 </div>
 <!--close-top-serch--> 
+  <!--start-top-serch-->
+<div id="search" class="visible-phone">
+  <br /><br /><form action="<?php echo base_url()?>index.php/mapos/pesquisar">
+    <input type="text" name="termo" placeholder="Pesquisar..."/>
+    <button type="submit"  class="tip-bottom" title="Pesquisar"><i class="icon-search icon-white"></i></button>
+    
+  </form>
+</div>
 
 <!--sidebar-menu-->
 
